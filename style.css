@@ -177,7 +177,7 @@ main {
 #offer h2 {
     text-align: center;
     font-size: 50px;
-    color: #0084bc;
+    color: black;
     padding-top: 10vh;
 }
 
@@ -191,9 +191,9 @@ main {
 }
 
 .container {
-    width: 1100px;
+    width: 1400px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -201,7 +201,7 @@ main {
 .container .card {
     position: relative;
     width: 300px;
-    height: 400px;
+    height: 500px;
     background-color: darkgrey;
     display: flex;
     justify-content: center;
@@ -237,10 +237,11 @@ main {
     text-align: center;
 }
 
-.container .card .content h2 {
+.container .card .content h3 {
     position: relative;
-    font-size: 1.5em;
-    color: #fff;
+    font-size: 30px;
+    color: black;
+    padding: 0 0 15px 0;
     z-index: 2;
     opacity: 0.5;
     letter-spacing: 1px;
@@ -249,13 +250,15 @@ main {
 
 .container .card .content p {
     position: relative;
-    font-size: 1em;
+    font-size: 15px;
     color: #fff;
     z-index: 2;
     opacity: 0.5;
     letter-spacing: 1px;
     font-weight: 300;
     transition: 0.5s;
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 
@@ -273,6 +276,7 @@ main {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
+    z-index: 2;
 }
 
 .container .card span {
