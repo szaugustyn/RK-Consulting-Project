@@ -13,7 +13,7 @@ header {
     background-size: cover;
     background-position: center bottom;
     height: 100vh;
-    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto ', Arial, Helvetica, sans-serif;
     font-size: 18px;
     transition: 0.7s;
 }
@@ -106,14 +106,13 @@ header h2 {
     position: absolute;
     font-size: 50px;
     color: #cd2628;
-    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
     top: 50%;
     left: 10%;
     /*     background-color: rgba(0, 0, 0, 0.4); */
 }
 
 main {
-    font-family: "Roboto mono", Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 /* Sekcja "O nas" */
@@ -136,13 +135,17 @@ main {
     width: 650px;
 }
 
+.company .left img {
+    width: 650px;
+}
+
 .right {
     width: 650px;
 }
 
 .company h1 {
     text-align: center;
-    margin: 50px 0px;
+    margin: 50px 0px 70px 0;
     font-size: 44px;
     color: #0084bc;
     padding-top: 10vh;
@@ -150,7 +153,7 @@ main {
 
 .company h2 {
     text-align: left;
-    margin: 20px 0;
+    margin: 0 0 20px 0;
     font-size: 24px;
     color: #cd2628;
 }
@@ -382,7 +385,7 @@ main {
 }
 
 .news h3 {
-    color: red;
+    color: black;
     margin: 30px 0 10px;
 }
 
