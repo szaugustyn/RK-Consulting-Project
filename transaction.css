@@ -29,12 +29,13 @@ main {
 
 main h2 {
     color: #0084bc;
-    text-align: justify;
+    font-size: 35px;
 }
 
 main p {
     text-align: justify;
     margin: 30px 0;
+    font-size: 20px;
 }
 
 
