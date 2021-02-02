@@ -1,0 +1,66 @@
+header {
+    width: 100vw;
+    background-color: rgba(0, 0, 0);
+    position: fixed;
+    z-index: 200;
+}
+
+header img {
+    height: 8vh;
+    cursor: pointer;
+}
+
+header .wrapper {
+    display: flex;
+    align-items: center;
+    max-width: 1550px;
+    margin: 0 auto;
+    height: 10vh;
+    justify-content: left;
+}
+
+main {
+    height: 40vh;
+    position: absolute;
+    width: 100vw;
+    top: 20vh;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+main h2 {
+    color: #0084bc;
+}
+
+main p {
+    text-align: justify;
+}
+
+
+main .wrapper {
+    display: flex;
+    max-width: 1550px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+main .left {
+    width: 650px;
+}
+
+main .right {
+    width: 650px;
+}
+
+main .right img {
+    width: 650px;
+}
+
+main .left img {
+    width: 650px;
+}
+
+footer {
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+}
