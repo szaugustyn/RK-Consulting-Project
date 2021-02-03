@@ -71,3 +71,48 @@ footer {
     bottom: 0;
     left: 0;
 }
+
+@media(max-width: 1800px) {
+
+    header .wrapper {
+        max-width: 1400px;
+    }
+
+    main {
+        top: 13vh;
+    }
+
+    main .wrapper {
+        max-width: 1400px;
+    }
+
+    main .left {
+        width: 550px;
+    }
+
+    main .right {
+        width: 550px;
+    }
+
+    main .right p {
+        margin: 20px 0;
+    }
+
+    main .right img {
+        margin-top: 15px;
+        width: 550px;
+    }
+
+    main .left img {
+        width: 550px;
+    }
+
+    footer {
+        width: 100vw;
+        height: 5vh;
+        background-color: black;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+}

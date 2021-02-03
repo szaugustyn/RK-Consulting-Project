@@ -429,3 +429,30 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+
+/* Media queries - desktop */
+
+@media (max-width: 1800px) {
+
+    header .wrapper {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    header h2 {
+        font-size: 46px;
+    }
+
+    /* Sekcja Aktualności */
+    .news {
+        width: 1400px;
+    }
+
+    .news h3 {
+        margin: 40px 0 10px;
+    }
+
+    .news p {
+        font-size: 16px;
+    }
+}
