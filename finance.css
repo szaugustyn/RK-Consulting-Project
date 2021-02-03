@@ -68,3 +68,36 @@ footer {
     bottom: 0;
     left: 0;
 }
+
+@media(max-width:1600px) {
+
+
+    header .wrapper {
+
+        max-width: 1300px;
+    }
+
+
+    main p {
+        text-align: justify;
+        margin: 20px 0;
+        font-size: 18px;
+    }
+
+
+    main .wrapper {
+        max-width: 1300px;
+    }
+
+    main .left {
+        width: 600px;
+    }
+
+    main .right {
+        width: 600px;
+    }
+
+    main .left img {
+        width: 600px;
+    }
+}

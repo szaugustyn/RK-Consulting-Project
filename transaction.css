@@ -68,3 +68,37 @@ footer {
     bottom: 0;
     left: 0;
 }
+
+
+@media(max-width:1600px) {
+
+
+    header .wrapper {
+        max-width: 1300px;
+    }
+
+
+    main h2 {
+        font-size: 30px;
+    }
+
+    main p {
+        font-size: 20px;
+    }
+
+    main .wrapper {
+        max-width: 1300px;
+    }
+
+    main .left {
+        width: 600px;
+    }
+
+    main .right {
+        width: 600px;
+    }
+
+    main .left img {
+        width: 600px;
+    }
+}

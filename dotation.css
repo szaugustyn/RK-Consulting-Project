@@ -107,12 +107,39 @@ footer {
         width: 550px;
     }
 
-    footer {
-        width: 100vw;
-        height: 5vh;
-        background-color: black;
-        position: fixed;
-        bottom: 0;
-        left: 0;
+}
+
+@media(max-width:1600px) {
+
+    header .wrapper {
+        max-width: 1300px;
+    }
+
+    main .wrapper {
+        max-width: 1300px;
+    }
+
+    main .left {
+        width: 540px;
+    }
+
+    main .right {
+        width: 540px;
+    }
+
+    main .right p {
+        margin: 20px 0;
+    }
+
+    main .right img {
+        width: 540px;
+    }
+
+    main .left img {
+        width: 540px;
+    }
+
+    main .left p {
+        margin-top: 0px;
     }
 }
