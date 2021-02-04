@@ -534,3 +534,124 @@ html {
         margin: 25px 0 10px 0;
     }
 }
+
+@media(max-width:1400px) {
+
+    header {
+        font-size: 16px;
+    }
+
+    header .wrapper {
+        max-width: 1000px;
+    }
+
+    button:hover {
+        box-shadow: inset 18vw 0 0 0 #0084bc;
+    }
+
+    header h2 {
+        font-size: 35px;
+        left: 15%;
+    }
+
+    /* Sekcja "O nas" */
+
+    .company {
+        max-width: 1000px;
+        font-size: 15px;
+    }
+
+    .left {
+        width: 490px;
+    }
+
+    .company .left img {
+        width: 480px;
+        margin-top: 10vh;
+    }
+
+    .right {
+        width: 490px;
+    }
+
+    .company h1 {
+        margin: 20px 0px 10px 0;
+        font-size: 44px;
+        padding-top: 10vh;
+    }
+
+    .company h2 {
+        margin: 0 0 5px 0;
+        font-size: 20px;
+    }
+
+    .company h3 {
+        text-align: left;
+        margin: 5px 0;
+        font-size: 16px;
+    }
+
+    .company p {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+
+    /* Sekcja oferta */
+
+    #offer h2 {
+        font-size: 44px;
+    }
+
+    .container {
+        width: 1200px;
+    }
+
+    .container .card {
+        height: 400px;
+        margin: 0 30px 0 30px;
+    }
+
+    /* Sekcja Aktualności */
+    .news {
+        width: 1100px;
+    }
+
+    .news h2 {
+        font-size: 44px;
+    }
+
+    .news h3 {
+        margin: 20px 0 10px;
+    }
+
+    .news p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+    }
+
+    /* Sekcja Kontakt */
+    .contact {
+        width: 1100px;
+    }
+
+    .contact h2 {
+        margin-bottom: 20px;
+        font-size: 44px;
+    }
+
+    .contact h3 {
+        margin: 15px 0 10px 0;
+    }
+
+    /* Footer */
+
+    footer {
+        width: 100vw;
+        height: 10vh;
+        background-color: black;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+}
