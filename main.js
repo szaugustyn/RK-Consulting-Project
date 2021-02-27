@@ -36,4 +36,20 @@ function changeSlide() {
 }
 
 
-setInterval(changeSlide, bannerTime) 
+/* setInterval(changeSlide, bannerTime) 
+
+const hamburger = document.getElementById('hamburger');
+const navUL = document.getElementById('.nav-area');
+
+hamburger.addEventListener('click',()=>{
+    navUL.classList.toggle("show");
+}) */
+
+$(document).ready(function(){
+    $(".hamburger").on("click",(function(){
+        $(".nav-area,.wrapper").toggleClass("show");
+    }))
+    $(".hamburger").on("click",(function(){
+        $(".fas").toggleClass("up");
+    }))
+ }) 

@@ -3,6 +3,8 @@ header {
     background-color: rgba(0, 0, 0);
     position: fixed;
     z-index: 200;
+    left: 0;
+    top: 0;
 }
 
 header img {
@@ -132,5 +134,62 @@ footer {
 
     main .left img {
         width: 500px;
+    }
+}
+
+@media(max-width:767px) {
+
+    header img {
+        height: 7vh;
+        cursor: none;
+        margin-top: 4px;
+    }
+
+    header .wrapper {
+        display: block;
+        max-width: 700px;
+    }
+
+    main {
+        top: 15vh;
+    }
+
+    main h2 {
+        font-size: 25px;
+    }
+
+    main p {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+
+    main .wrapper {
+        display: flex;
+        max-width: 650px;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    main .left {
+        width: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .right {
+        width: 650px;
+        padding-bottom: 30px;
+    }
+
+    main .left img {
+        width: 300px;
+    }
+
+    footer {
+        display: none;
     }
 }

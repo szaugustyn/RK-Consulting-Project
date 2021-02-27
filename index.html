@@ -9,12 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+    crossorigin="anonymous">
 </head>
 <body>
     <header class="header">
         <div class="top">
             <div class="wrapper">
                 <a href="#"><img src="assets/images/RKconsulting3.png" alt="logo firmy"></a>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars "></i>
+                    <i class="fas fa-times up"></i>
+                </button>
                 <nav>
                     <ul class="nav-area">
                         <li><a href="#about">O nas</a></li>
@@ -32,7 +38,7 @@
     </header>
     <main>
         <section class="company" id="about">
-            <h1>RK consulting</h1>
+            <h1>O nas</h1>
             <div class="flex">
                 <div class="left">
                     <img src="assets/images/office.jpg" alt="">
@@ -62,16 +68,16 @@
                         sfinansowanie rozwoju naszych
                         klientów.</p>
                     <h3>Cele</h3>
-                    <p>Budowanie długoterminowych relacji z
+                    <p>Naszym celem jest budowanie długoterminowych relacji z
                         klientami opartych na współpracy i zaufaniu,
                         
-                        Dostarczanie profesjonalnych usług
+                        dostarczanie profesjonalnych usług
                         bazujących na wiedzy i doświadczeniu,
                         
-                        Dbanie o wzrost wartość przedsiębiorstw
+                        dbanie o wzrost wartość przedsiębiorstw
                         poprzez wdrażanie innowacyjnych rozwiązań
                         
-                        Zapewnienie jasnej i przejrzystej komunikacji
+                        oraz zapewnienie jasnej i przejrzystej komunikacji
                         w trakcie realizacji projektów.</p>
                 </div>
             </div>
@@ -139,15 +145,35 @@
         </section>
         <section class="news" id="news">
             <h2>Aktualności</h2>
-            <h3>22.01.2021  Dofinansowania z urzędu pracy</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus reprehenderit perferendis porro, aliquid, alias ut quod harum laboriosam recusandae labore repellendus. Rem soluta corrupti est dignissimos, fugit animi cumque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis ut quia est perferendis numquam repellendus mollitia unde, enim beatae, fugit aliquid, illum ad ipsam praesentium odio fuga? Ducimus, suscipit magnam?</p>
-            <h3>15.01.2021  Informacje o tarczy antykryzysowej</h3>
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat aut iure aliquid corporis, consequatur adipisci vitae ea natus sint magnam sit pariatur laborum assumenda amet facere unde. Sequi, impedit vitae.Perspiciatis repellat ipsa mollitia doloremque nesciunt est quos alias in rerum, at sequi! Accusantium reprehenderit sint nam ea recusandae, placeat perferendis officiis in odio praesentium vel quod. Maxime, inventore tenetur.</p>
-            <h3> 14.12.2020  Projekt "Twój biznes" ze środkow unijnych</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus omnis dolore perspiciatis vitae, eveniet sapiente quia nesciunt laudantium asperiores doloremque mollitia et recusandae facilis, inventore atque harum ducimus nostrum quisquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam aspernatur excepturi cumque. Iste dicta asperiores aliquid repudiandae. Odit sit eveniet ipsam repellat, voluptates ad aliquam repudiandae laboriosam possimus fuga?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptas a illo! Dolor quas doloremque voluptas impedit similique laborum consectetur earum minus, inventore minima eveniet necessitatibus, sapiente iure doloribus ipsum!
+            <h3>26.02.2021   Design dla przedsiębiorców PARP</h3>
+            <p>Pierwszego marca rusza druga runda naboru w konkursie Design dla przedsiębiorców. Konkursu
+                dotyczy projektów nakierowany na zaspokojenie specyficznych potrzeb osób z ograniczeniami
+                funkcjonalnymi (fizycznymi i poznawczymi) w ramach Program Dostępność Plus. Wnioski w drugiej
+                rundzie można składać do 31.05.2021r.</p>
+            <h3>15.02.2021   Wsparcie prowadzenia prac B+R przez przedsiębiorstwa (Szybka ścieżka) NCBiR</h3>
+            <p>Od 22 marca 2021 r. rusza nabór wniosków na działania ukierunkowane z rozwojem B+R w firmach.
+                Cały konkurs został podzielony na dwie rundy, w pierwszej, trwającej od 22 marca do maksymalnie
+                12 kwietnia 2021 r., wnioski mogą składać duże przedsiębiorstwa oraz ich konsorcja, w drugiej
+                trwającej od 13 kwietnia do maksymalnie 4 maja 2021 r., dofinansowanie mogą uzyskać tylko
+                projekty MŚP a także ich konsorcja. Celem projektów jest opracowanie innowacyjnego rozwiązania
+                możliwego do wdrożenia w działalności gospodarczej. W konkursie, który jest podzielony na dwie
+                rundy, mogą wziąć udział przedsiębiorstwa, również z jednostkami naukowymi w ramach
+                konsorcjum. Konkurs bez ograniczeń tematycznych.</p>
+            <h3> 15.02.2021   Nowa Energia NFOŚiGW</h3>
+            <p>NGOŚiGW ogłosił nabór wniosków na innowacyjne projekty wodorowe w ramach programu
+                priorytetowego Nowa Energia. Celem programu jest podniesienie poziomu innowacyjności
+                gospodarki poprzez wsparcie wdrożenia projektów w zakresie nowoczesnych technologii
+                energetycznych, ukierunkowanych na rozwój bezemisyjnej energetyki, bezemisyjnego przemysłu, jak
+                również rozwiązań systemowych pozwalających na uzyskanie maksymalnej efektywności
+                wytwarzania, zagospodarowania oraz wykorzystania energii. Fiszki projektowe w pilotażowym
+                naborze można składać od dnia 18.03.-31.05.2021r.
             </p>
-            <h3>15.01.2021  Informacje o tarczy antykryzysowej</h3>
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat aut iure aliquid corporis, consequatur adipisci vitae ea natus sint magnam sit pariatur laborum assumenda amet facere unde. Sequi, impedit vitae.Perspiciatis repellat ipsa mollitia doloremque nesciunt est quos alias in rerum, at sequi! Accusantium reprehenderit sint nam ea recusandae, placeat perferendis officiis in odio praesentium vel quod. Maxime, inventore tenetur.</p>
+            <h3>15.01.2021   Tarcza finansowa PFR 2.0</h3>
+            <p>15 stycznia br. ruszył pierwszy instrument Tarczy Finansowej PFR 2.0: subwencje dla mikro-, małych i
+                średnich firm z 45 branż najbardziej poszkodowanych w wyniku drugiej fali pandemii COVID-19.
+                Tarcza finansowa 2.0 dla dużych firm czeka na notyfikację KE. W tarczy przewidziano możliwość
+                umorzenia części subwencji przez najbardziej poszkodowanych przedsiębiorców, którzy uzyskali
+                dofinansowanie z Tarczy Finansowej1.0. Nabór wniosków trwa do 28.02.2021r. <p>
         </section>
         <section class="contact" id="contact">
             <h2>Kontakt</h2>
@@ -166,6 +192,7 @@
         </section>
     </main>
     <footer></footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

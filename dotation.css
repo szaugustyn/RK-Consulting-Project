@@ -4,6 +4,7 @@ header {
     position: fixed;
     z-index: 200;
     top: 0;
+    left: 0;
 }
 
 header img {
@@ -185,5 +186,54 @@ footer {
         position: absolute;
         top: 120vh;
         left: 0;
+    }
+}
+
+@media(max-width:767px) {
+    header img {
+        height: 7vh;
+        cursor: none;
+        margin-top: 4px;
+    }
+
+    header .wrapper {
+        display: block;
+        max-width: 700px;
+        height: 10vh;
+    }
+
+    main .wrapper {
+        display: block;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    main .left {
+        width: 680px;
+    }
+
+    main .left p {
+        margin: 10px 0;
+    }
+
+    main .right {
+        width: 680px;
+        padding-bottom: 30px;
+    }
+
+    main .right p {
+        margin: 10px 0;
+    }
+
+    main .right img {
+        width: 680px;
+    }
+
+    main .left img {
+        display: none;
+    }
+
+    footer {
+        display: none;
     }
 }
