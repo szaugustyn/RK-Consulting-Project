@@ -198,35 +198,35 @@ footer {
 
     header .wrapper {
         display: block;
-        max-width: 700px;
+        max-width: 600px;
         height: 10vh;
     }
 
     main .wrapper {
         display: block;
-        max-width: 700px;
+        max-width: 600px;
         margin: 0 auto;
     }
 
     main .left {
-        width: 680px;
+        width: 600px;
     }
 
     main .left p {
-        margin: 10px 0;
+        margin: 15px 0;
     }
 
     main .right {
-        width: 680px;
+        width: 600px;
         padding-bottom: 30px;
     }
 
     main .right p {
-        margin: 10px 0;
+        margin: 15px 0;
     }
 
     main .right img {
-        width: 680px;
+        width: 600px;
     }
 
     main .left img {
@@ -235,5 +235,120 @@ footer {
 
     footer {
         display: none;
+    }
+}
+
+@media(max-width:650px) {
+
+    header .wrapper {
+        max-width: 450px;
+    }
+
+    main .wrapper {
+        max-width: 450px;
+    }
+
+    main .left {
+        width: 450px;
+    }
+
+    main .right {
+        width: 450px;
+    }
+
+    main .right img {
+        width: 450px;
+    }
+}
+
+@media(max-width:500px) {
+
+    header .wrapper {
+        max-width: 380px;
+    }
+
+    main .wrapper {
+        max-width: 380px;
+    }
+
+    main .left {
+        width: 380px;
+    }
+
+    main .right {
+        width: 380px;
+    }
+
+    main .right img {
+        width: 380px;
+    }
+}
+
+@media(max-width:400px) {
+
+    header .wrapper {
+        max-width: 300px;
+    }
+
+    main .wrapper {
+        max-width: 300px;
+    }
+
+    main .left {
+        width: 300px;
+    }
+
+    main .right {
+        width: 300px;
+    }
+
+    main .right img {
+        width: 300px;
+    }
+}
+
+@media(max-width:330px) {
+
+    header .wrapper {
+        max-width: 270px;
+    }
+
+    main .wrapper {
+        max-width: 270px;
+    }
+
+    main .left {
+        width: 270px;
+    }
+
+    main .right {
+        width: 270px;
+    }
+
+    main .right img {
+        width: 270px;
+    }
+}
+
+@media(max-width:290px) {
+
+    header .wrapper {
+        max-width: 240px;
+    }
+
+    main .wrapper {
+        max-width: 240px;
+    }
+
+    main .left {
+        width: 240px;
+    }
+
+    main .right {
+        width: 240px;
+    }
+
+    main .right img {
+        width: 240px;
     }
 }

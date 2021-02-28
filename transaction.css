@@ -193,3 +193,168 @@ footer {
         display: none;
     }
 }
+
+@media(max-width:700px) {
+    header .wrapper {
+        max-width: 550px;
+    }
+
+    main h2 {
+        font-size: 24px;
+    }
+
+    main p {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+
+    main .wrapper {
+        max-width: 550px;
+    }
+
+    main .left {
+        width: 420px;
+    }
+
+    main .right {
+        width: 550px;
+        padding-bottom: 30px;
+    }
+
+    main .left img {
+        width: 300px;
+    }
+}
+
+@media(max-width:600px) {
+    header .wrapper {
+        max-width: 460px;
+    }
+
+    main h2 {
+        font-size: 24px;
+    }
+
+    main p {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+
+    main .wrapper {
+        max-width: 460px;
+    }
+
+    main .left {
+        width: 460px;
+    }
+
+    main .right {
+        width: 460px;
+        padding-bottom: 30px;
+    }
+
+    main .left img {
+        width: 300px;
+    }
+}
+
+@media(max-width:500px) {
+    header .wrapper {
+        max-width: 380px;
+    }
+
+    main h2 {
+        font-size: 24px;
+    }
+
+    main p {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+
+    main .wrapper {
+        max-width: 380px;
+    }
+
+    main .left {
+        width: 380px;
+    }
+
+    main .right {
+        width: 380px;
+        padding-bottom: 30px;
+    }
+
+    main .left img {
+        width: 280px;
+    }
+}
+
+@media(max-width:400px) {
+    header .wrapper {
+        max-width: 280px;
+    }
+
+    main h2 {
+        font-size: 24px;
+    }
+
+    main p {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+
+    main .wrapper {
+        max-width: 280px;
+    }
+
+    main .left {
+        width: 280px;
+    }
+
+    main .right {
+        width: 280px;
+        padding-bottom: 30px;
+    }
+
+    main .left img {
+        width: 240px;
+    }
+}
+
+@media(max-width:300px) {
+    header .wrapper {
+        max-width: 240px;
+    }
+
+    main h2 {
+        font-size: 24px;
+    }
+
+    main p {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+
+    main .wrapper {
+        max-width: 240px;
+    }
+
+    main .left {
+        width: 240px;
+    }
+
+    main .right {
+        width: 240px;
+        padding-bottom: 30px;
+    }
+
+    main .left img {
+        width: 200px;
+    }
+}
