@@ -7,11 +7,11 @@ window.addEventListener("scroll",function(){
 //banner
  const slideList =[
 {
-    img: "assets/images/banner/rzeszow.jpg",
+    img:'assets/images/banner/tower.jpg',
     text:'Profesionalne doradztwo dla biznesu'
 },
 {
-    img:'assets/images/banner/tower.jpg',
+    img: "assets/images/banner/rzeszow.jpg",
     text:'Skontaktuj się z nami'
 }]
 
@@ -36,20 +36,20 @@ function changeSlide() {
 }
 
 
-/* setInterval(changeSlide, bannerTime) 
+ setInterval(changeSlide, bannerTime) 
 
-const hamburger = document.getElementById('hamburger');
+/*const hamburger = document.getElementById('hamburger');
 const navUL = document.getElementById('.nav-area');
 
 hamburger.addEventListener('click',()=>{
     navUL.classList.toggle("show");
 }) */
 
-$(document).ready(function(){
+ $(document).ready(function(){
     $(".hamburger").on("click",(function(){
         $(".nav-area,.wrapper").toggleClass("show");
     }))
     $(".hamburger").on("click",(function(){
         $(".fas").toggleClass("up");
     }))
- }) 
+ })  
