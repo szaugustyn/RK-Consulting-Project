@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
 header {
     width: 100vw;
     background-color: rgba(0, 0, 0);
@@ -36,6 +43,7 @@ main p {
 }
 
 footer {
+    left: 0;
     width: 100vw;
     height: 5vh;
     background-color: black;
@@ -67,11 +75,22 @@ footer {
 @media(max-width:1400px) {
 
     header .wrapper {
-        max-width: 1100px;
+        max-width: 940px;
     }
 
     main {
-        max-width: 1100px;
+        max-width: 940px;
+    }
+}
+
+@media(max-width:1024px) {
+
+    header .wrapper {
+        max-width: 680px;
+    }
+
+    main {
+        max-width: 680px;
     }
 }
 
@@ -89,10 +108,10 @@ footer {
 @media(max-width:600px) {
 
     header .wrapper {
-        max-width: 350px;
+        max-width: 300px;
     }
 
     main {
-        max-width: 350px;
+        max-width: 310px;
     }
 }

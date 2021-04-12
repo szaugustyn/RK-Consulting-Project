@@ -26,11 +26,7 @@ function changeSlide() {
     if (activeSlide === slideList.length) {
         activeSlide = 0;
     }
-/*         if(slideList[0] === slideList[activeSlide]) {
-        header.style.filter = 'brightness(10%)';
-        console.log("pociemniamy");
-    }  */
-    console.log(slideList[activeSlide].img);
+
     header.style.backgroundImage = `url(${slideList[activeSlide].img})`;
     h2.textContent = slideList[activeSlide].text;
 }

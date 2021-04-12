@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 a {
@@ -604,683 +605,559 @@ html {
         border-radius: 5px;
         font-size: 3vh;
     }
+}
 
+@media(max-width:1400px) {
 
-    @media(max-width:1400px) {
-
-        header {
-            font-size: 16px;
-        }
-
-        header .wrapper {
-            max-width: 1000px;
-        }
-
-        button:hover {
-            box-shadow: inset 18vw 0 0 0 #0084bc;
-        }
-
-        header h2 {
-            font-size: 35px;
-            left: 15%;
-        }
-
-        /* Sekcja "O nas" */
-
-        .company {
-            max-width: 1000px;
-            font-size: 15px;
-        }
-
-        .left {
-            width: 490px;
-        }
-
-        .company .left img {
-            width: 480px;
-            margin-top: 10vh;
-        }
-
-        .right {
-            width: 490px;
-        }
-
-        .company h1 {
-            margin: 20px 0px 10px 0;
-            font-size: 44px;
-            padding-top: 10vh;
-        }
-
-        .company h2 {
-            margin: 0 0 5px 0;
-            font-size: 20px;
-        }
-
-        .company h3 {
-            text-align: left;
-            margin: 5px 0;
-            font-size: 16px;
-        }
-
-        .company p {
-            margin: 10px 0;
-            font-size: 14px;
-        }
-
-        /* Sekcja oferta */
-
-        #offer h2 {
-            font-size: 44px;
-        }
-
-        .container {
-            width: 1200px;
-        }
-
-        .container .card {
-            height: 400px;
-            margin: 0 30px 0 30px;
-        }
-
-        /* Sekcja Aktualności */
-        .news {
-            width: 1100px;
-        }
-
-        .news h2 {
-            font-size: 44px;
-        }
-
-        .news h3 {
-            margin: 20px 0 10px;
-        }
-
-        .news p {
-            font-family: 'Roboto', sans-serif;
-            font-size: 15px;
-        }
-
-        /* Sekcja Kontakt */
-        .contact {
-            width: 1100px;
-        }
-
-        .contact h2 {
-            margin-bottom: 20px;
-            font-size: 44px;
-        }
-
-        .contact h3 {
-            margin: 10px 0 10px 0;
-        }
-
-        /* Footer */
-
-        footer {
-            width: 100vw;
-            height: 10vh;
-            background-color: black;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
+    header {
+        font-size: 16px;
     }
 
-    @media(max-width:767px) {
-
-
-        header .wrapper {
-            max-width: 400px;
-        }
-
-        .wrapper.show {
-            height: 30vh;
-        }
-
-        header img {
-            height: 6vh;
-        }
-
-        .hamburger {
-            display: block;
-            position: fixed;
-            top: 3vh;
-            left: 80vw;
-            font-size: 4vh;
-        }
-
-        .fas.up {
-            display: none;
-        }
-
-        .nav-area {
-            display: none;
-            width: 100%;
-            flex-direction: column;
-        }
-
-        .nav-area.show {
-            display: flex;
-        }
-
-        .nav-area.show li {
-            padding: 0.5vh 0;
-        }
-
-        .main button {
-            height: 7vh;
-            width: 24vw;
-            font-size: 20px;
-            left: 60%;
-            top: 70%;
-        }
-
-        button:hover {
-            box-shadow: none;
-        }
-
-        header h2 {
-            font-size: 28px;
-            top: 50%;
-            left: 5%;
-        }
-
-        /* Sekcja "O nas" */
-
-        .company {
-            max-width: 420px;
-            height: auto;
-            font-size: 15px;
-        }
-
-        .company .flex {
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-
-        .left {
-            width: 420px;
-        }
-
-        .company .left img {
-            width: 420px;
-            margin-bottom: 15px;
-        }
-
-        .right {
-            width: 400px;
-        }
-
-        .company h1 {
-            text-align: center;
-            margin: 15px 0px 15px 0;
-            font-size: 44px;
-            padding-top: 10vh;
-        }
-
-        .company h2 {
-            text-align: center;
-            margin: 0 0 20px 0;
-            font-size: 24px;
-        }
-
-        .company h3 {
-            margin: 12px 0;
-            font-size: 20px;
-        }
-
-        .company p {
-            margin: 10px 0;
-            text-align: justify;
-        }
-
-
-        /* Sekcja oferta */
-
-        #offer h2 {
-            text-align: center;
-            padding-top: 10vh;
-        }
-
-        .offer {
-            background-color: white;
-            height: auto;
-            width: 100vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .container {
-            width: 420px;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .container .card {
-            position: relative;
-            width: 380px;
-            height: 500px;
-            background-color: darkgrey;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 30px;
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
-            overflow: hidden;
-        }
-
-        .container:hover .card {
-            opacity: 0.2;
-
-        }
-
-        .container .card:hover {
-            opacity: 1;
-        }
-
-        .container .card::before {
-
-            content: '';
-            position: absolute;
-            top: 2px;
-            left: 2px;
-            bottom: 2px;
-            background-color: rgba(0, 0, 0, 0.1);
-            width: 50%;
-            pointer-events: none;
-        }
-
-        .container .card .content {
-            padding: 30px;
-            text-align: center;
-        }
-
-        .container .card .content h3 {
-            position: relative;
-            font-size: 30px;
-            color: black;
-            padding: 0 0 15px 0;
-            z-index: 2;
-            opacity: 0.5;
-            letter-spacing: 1px;
-            transition: 0.5s;
-        }
-
-        .container .card .content p {
-            position: relative;
-            font-size: 15px;
-            color: #fff;
-            z-index: 2;
-            opacity: 0.5;
-            letter-spacing: 1px;
-            font-weight: 300;
-            transition: 0.5s;
-            text-align: center;
-            padding-bottom: 15px;
-        }
-
-
-        .container .card:hover .content h2,
-        .container .card:hover .content p {
-            opacity: 1;
-        }
-
-        .container .card .content a {
-            display: inline-block;
-            margin: 15px;
-            padding: 8px 15px;
-            background-color: #fff;
-            color: black;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-weight: 600;
-            z-index: 2;
-        }
-
-        .container .card span {
-            transition: 0.5;
-            opacity: 0;
-        }
-
-        .container .card:hover span {
-            opacity: 1;
-        }
-
-        .container .card span:nth-child(1) {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 3px;
-            background: linear-gradient(to right, transparent, #cd2628);
-            animation: animate1 2s linear infinite;
-        }
-
-        /* Sekcja Aktualności */
-        .news {
-            height: auto;
-            width: 400px;
-            margin: 0 auto;
-        }
-
-        .news h2 {
-            text-align: center;
-            font-size: 50px;
-            color: #0084bc;
-            padding-top: 10vh;
-        }
-
-        .news h3 {
-            color: #0084bc;
-            margin: 70px 0 10px;
-        }
-
-        .news p {
-            font-family: 'Roboto', sans-serif;
-            text-align: justify;
-        }
-
-        /* Sekcja Kontakt */
-
-        .contact {
-            height: auto;
-            width: 400px;
-            margin: 20px auto;
-            text-align: center;
-        }
-
-        .contact h2 {
-            margin-bottom: 40px;
-            text-align: center;
-            font-size: 50px;
-            padding-top: 10vh;
-        }
-
-        .contact h3 {
-            margin: 30px 0 10px 0;
-        }
-
-        .contact button {
-            width: 34vw;
-        }
-
+    header .wrapper {
+        max-width: 1000px;
     }
 
-    @media(max-width:400px) {
+    button:hover {
+        box-shadow: inset 18vw 0 0 0 #0084bc;
+    }
+
+    header h2 {
+        font-size: 35px;
+        left: 15%;
+    }
+
+    /* Sekcja "O nas" */
+
+    .company {
+        max-width: 1000px;
+        font-size: 15px;
+    }
+
+    .left {
+        width: 490px;
+    }
+
+    .company .left img {
+        width: 480px;
+        margin-top: 10vh;
+    }
+
+    .right {
+        width: 490px;
+    }
+
+    .company h1 {
+        margin: 20px 0px 10px 0;
+        font-size: 44px;
+        padding-top: 10vh;
+    }
+
+    .company h2 {
+        margin: 0 0 5px 0;
+        font-size: 20px;
+    }
+
+    .company h3 {
+        text-align: left;
+        margin: 5px 0;
+        font-size: 16px;
+    }
+
+    .company p {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+
+    /* Sekcja oferta */
+
+    #offer h2 {
+        font-size: 44px;
+    }
+
+    .container {
+        width: 1200px;
+    }
+
+    .container .card {
+        height: 440px;
+        margin: 0 30px 0 30px;
+    }
+
+    /* Sekcja Aktualności */
+    .news {
+        width: 1000px;
+    }
+
+    .news h2 {
+        font-size: 44px;
+    }
+
+    .news h3 {
+        margin: 20px 0 10px;
+    }
+
+    .news p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+    }
+
+    /* Sekcja Kontakt */
+    .contact {
+        width: 1100px;
+    }
+
+    .contact h2 {
+        margin-bottom: 20px;
+        font-size: 44px;
+    }
+
+    .contact h3 {
+        margin: 10px 0 10px 0;
+    }
+
+    /* Footer */
+
+    footer {
+        width: 100vw;
+        height: 8vh;
+        background-color: black;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+@media(max-width:1024px) {
 
 
-        header .wrapper {
-            max-width: 280px;
-        }
+    header .wrapper {
+        max-width: 640px;
+    }
 
-        header img {
-            height: 5vh;
-        }
+    .wrapper.show {
+        height: 30vh;
+    }
 
+    header img {
+        height: 6vh;
+    }
 
-        .hamburger {
-            display: block;
-            position: fixed;
-            top: 3vh;
-            left: 80vw;
-            font-size: 4vh;
-        }
+    .hamburger {
+        display: block;
+        position: fixed;
+        top: 3vh;
+        left: 80vw;
+        font-size: 4vh;
+    }
 
-        .fas.up {
-            display: none;
-        }
+    .fas.up {
+        display: none;
+    }
 
-        .nav-area {
-            display: none;
-            width: 100%;
-            flex-direction: column;
-        }
+    .nav-area {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
 
-        .nav-area.show {
-            display: flex;
-        }
+    .nav-area.show {
+        display: flex;
+    }
 
-        .nav-area.show li {
-            padding: 0.5vh 0;
-        }
+    .nav-area.show li {
+        padding: 0.5vh 0;
+    }
 
-        .main button {
-            height: 7vh;
-            width: 28vw;
-            font-size: 20px;
-        }
+    .main button {
+        height: 7vh;
+        width: 24vw;
+        font-size: 20px;
+        left: 60%;
+        top: 70%;
+    }
 
+    button:hover {
+        box-shadow: none;
+    }
 
-        header h2 {
-            font-size: 28px;
-            top: 50%;
-            left: 5%;
-        }
+    header h2 {
+        font-size: 28px;
+        top: 50%;
+        left: 5%;
+    }
 
-        /* Sekcja "O nas" */
+    /* Sekcja "O nas" */
 
-        .company {
-            max-width: 270px;
-            height: auto;
-            font-size: 15px;
-        }
+    .company {
+        max-width: 500px;
+        height: auto;
+        font-size: 17px;
+    }
 
-        .company .flex {
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
+    .company .flex {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 
-        .left {
-            width: 270px;
-        }
+    .left {
+        width: 500px;
+    }
 
-        .company .left img {
-            width: 270px;
-            margin-bottom: 15px;
-        }
+    .company .left img {
+        width: 500px;
+        margin-bottom: 15px;
+    }
 
-        .right {
-            width: 270px;
-        }
+    .right {
+        width: 500px;
+    }
 
-        .company h1 {
-            text-align: center;
-            margin: 15px 0px 15px 0;
-            font-size: 44px;
-            padding-top: 10vh;
-        }
+    .company h1 {
+        text-align: center;
+        margin: 15px 0px 15px 0;
+        font-size: 44px;
+        padding-top: 10vh;
+    }
 
-        .company h2 {
-            text-align: center;
-            margin: 0 0 20px 0;
-            font-size: 24px;
-        }
+    .company h2 {
+        text-align: center;
+        margin: 0 0 20px 0;
+        font-size: 26px;
+    }
 
-        .company h3 {
-            margin: 12px 0;
-            font-size: 20px;
-        }
+    .company h3 {
+        margin: 12px 0;
+        font-size: 22px;
+    }
 
-        .company p {
-            margin: 10px 0;
-            text-align: justify;
-        }
+    .company p {
+        margin: 10px 0;
+        text-align: justify;
+    }
 
+    /* Sekcja oferta */
 
-        /* Sekcja oferta */
+    .offer {
+        height: auto;
+    }
 
-        #offer h2 {
-            text-align: center;
-            padding-top: 10vh;
-        }
+    .container {
+        width: 420px;
+    }
 
-        .offer {
-            background-color: white;
-            height: auto;
-            width: 100vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    .container .card {
+        width: 380px;
+        height: 500px;
+        margin: 30px;
+    }
 
-        .container {
-            width: 300px;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-wrap: wrap;
-        }
+    .container .card .content {
+        padding: 30px;
+    }
 
-        .container .card {
-            position: relative;
-            width: 300px;
-            height: 500px;
-            background-color: darkgrey;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 30px;
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
-            overflow: hidden;
-        }
+    .container .card .content h3 {
+        font-size: 30px;
+        padding: 0 0 15px 0;
+    }
 
-        .container:hover .card {
-            opacity: 0.2;
-
-        }
-
-        .container .card:hover {
-            opacity: 1;
-        }
-
-        .container .card::before {
-
-            content: '';
-            position: absolute;
-            top: 2px;
-            left: 2px;
-            bottom: 2px;
-            background-color: rgba(0, 0, 0, 0.1);
-            width: 50%;
-            pointer-events: none;
-        }
-
-        .container .card .content {
-            padding: 30px;
-            text-align: center;
-        }
-
-        .container .card .content h3 {
-            position: relative;
-            font-size: 26px;
-            color: black;
-            padding: 0 0 15px 0;
-            z-index: 2;
-            opacity: 0.5;
-            letter-spacing: 1px;
-            transition: 0.5s;
-        }
-
-        .container .card .content p {
-            position: relative;
-            font-size: 14px;
-            color: #fff;
-            z-index: 2;
-            opacity: 0.5;
-            letter-spacing: 1px;
-            font-weight: 300;
-            transition: 0.5s;
-            text-align: center;
-            padding-bottom: 15px;
-        }
+    .container .card .content p {
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
 
 
-        .container .card:hover .content h2,
-        .container .card:hover .content p {
-            opacity: 1;
-        }
+    .container .card .content a {
+        margin: 15px;
+        padding: 8px 15px;
+    }
 
-        .container .card .content a {
-            display: inline-block;
-            margin: 15px;
-            padding: 8px 15px;
-            background-color: #fff;
-            color: black;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-weight: 600;
-            z-index: 2;
-        }
+    /* Sekcja Aktualności */
+    .news {
+        height: auto;
+        width: 500px;
+        margin: 0 auto;
+    }
 
-        .container .card span {
-            transition: 0.5;
-            opacity: 0;
-        }
+    .news h2 {
+        text-align: center;
+        font-size: 50px;
+        color: #0084bc;
+        padding-top: 10vh;
+    }
 
-        .container .card:hover span {
-            opacity: 1;
-        }
+    .news h3 {
+        color: #0084bc;
+        margin: 70px 0 10px;
+        font-size: 22px;
+    }
 
-        .container .card span:nth-child(1) {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 3px;
-            background: linear-gradient(to right, transparent, #cd2628);
-            animation: animate1 2s linear infinite;
-        }
+    .news p {
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+    }
 
-        /* Sekcja Aktualności */
-        .news {
-            height: auto;
-            width: 270px;
-            margin: 0 auto;
-        }
+    /* Sekcja Kontakt */
 
-        .news h2 {
-            text-align: center;
-            font-size: 50px;
-            color: #0084bc;
-            padding-top: 10vh;
-        }
+    .contact {
+        height: auto;
+        width: 400px;
+        margin: 20px auto;
+        text-align: center;
+    }
 
-        .news h3 {
-            color: #0084bc;
-            margin: 70px 0 10px;
-        }
+    .contact h2 {
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 10vh;
+    }
 
-        .news p {
-            font-family: 'Roboto', sans-serif;
-            text-align: justify;
-        }
+    .contact h3 {
+        margin: 30px 0 10px 0;
+    }
 
-        /* Sekcja Kontakt */
+    .contact button {
+        width: 36vw;
+    }
 
-        .contact {
-            height: auto;
-            width: 270px;
-            margin: 20px auto;
-            text-align: center;
-        }
+}
 
-        .contact h2 {
-            margin-bottom: 40px;
-            text-align: center;
-            font-size: 50px;
-            padding-top: 10vh;
-        }
+@media(max-width:768px) {
 
-        .contact h3 {
-            margin: 30px 0 10px 0;
-        }
+
+    header .wrapper {
+        max-width: 400px;
+    }
+
+    /* Sekcja "O nas" */
+
+    .company {
+        max-width: 420px;
+        font-size: 15px;
+    }
+
+    .left {
+        width: 420px;
+    }
+
+    .company .left img {
+        width: 420px;
+        margin-bottom: 15px;
+    }
+
+    .right {
+        width: 400px;
+    }
+
+    .company h2 {
+        font-size: 24px;
+    }
+
+    .company h3 {
+        font-size: 20px;
+    }
+
+    /* Sekcja oferta */
+
+
+    .container {
+        width: 400px;
+    }
+
+    .container .card {
+        width: 380px;
+        height: 500px;
+        margin: 30px;
+    }
+
+    .container .card .content {
+        padding: 30px;
+    }
+
+    .container .card .content h3 {
+        font-size: 30px;
+        padding: 0 0 15px 0;
+    }
+
+    .container .card .content p {
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+
+    .container .card .content a {
+        margin: 15px;
+        padding: 8px 15px;
+    }
+
+    /* Sekcja Aktualności */
+    .news {
+        width: 400px;
+    }
+
+    .news h2 {
+        font-size: 50px;
+        padding-top: 10vh;
+    }
+
+    .news h3 {
+        margin: 70px 0 10px;
+    }
+
+    /* Sekcja Kontakt */
+
+    .contact {
+        width: 400px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .contact h2 {
+        margin-bottom: 40px;
+        font-size: 50px;
+        padding-top: 10vh;
+    }
+
+    .contact h3 {
+        margin: 30px 0 10px 0;
+    }
+
+    .contact button {
+        width: 38vw;
+    }
+
+}
+
+@media(max-width:400px) {
+
+
+    header .wrapper {
+        max-width: 310px;
+    }
+
+    header img {
+        height: 5vh;
+    }
+
+    .hamburger {
+        top: 3vh;
+        left: 80vw;
+        font-size: 4vh;
+    }
+
+    .main button {
+        height: 7vh;
+        width: 28vw;
+        font-size: 20px;
+    }
+
+    header h2 {
+        font-size: 28px;
+        top: 50%;
+        left: 5%;
+    }
+
+    /* Sekcja "O nas" */
+
+    .company {
+        max-width: 270px;
+        font-size: 15px;
+    }
+
+    .left {
+        width: 270px;
+    }
+
+    .company .left img {
+        width: 270px;
+        margin-bottom: 15px;
+    }
+
+    .right {
+        width: 270px;
+    }
+
+    .company h1 {
+        margin: 15px 0px 15px 0;
+        font-size: 44px;
+        padding-top: 10vh;
+    }
+
+    .company h2 {
+        margin: 0 0 20px 0;
+        font-size: 24px;
+    }
+
+    .company h3 {
+        margin: 12px 0;
+        font-size: 20px;
+    }
+
+    .company p {
+        margin: 10px 0;
+    }
+
+    /* Sekcja oferta */
+
+    .container {
+        width: 316px;
+    }
+
+    .container .card {
+        width: 316px;
+        height: 500px;
+        margin: 30px;
+    }
+
+    .container .card .content {
+        padding: 30px;
+    }
+
+    .container .card .content h3 {
+        font-size: 20px;
+        padding: 0 0 15px 0;
+    }
+
+    .container .card .content p {
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+
+    .container .card .content a {
+        margin: 15px;
+        padding: 8px 15px;
+    }
+
+    /* Sekcja Aktualności */
+    .news {
+        width: 270px;
+    }
+
+    .news h2 {
+        font-size: 50px;
+        padding-top: 10vh;
+    }
+
+    .news h3 {
+        margin: 70px 0 10px;
+    }
+
+    /* Sekcja Kontakt */
+
+    .contact {
+        width: 270px;
+        margin: 20px auto;
+    }
+
+    .contact h2 {
+        margin-bottom: 40px;
+        font-size: 50px;
+        padding-top: 10vh;
+    }
+
+    .contact h3 {
+        margin: 30px 0 10px 0;
     }
 }
